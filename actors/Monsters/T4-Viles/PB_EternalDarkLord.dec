@@ -246,6 +246,7 @@ ACTOR PB_EternalDarkLord : PB_EternalDarkLordBase
 		DARK FFF 12 A_FaceTarget
 		Goto See
 	Death:
+	Death.ExtremePunches:
 		DARK H 0 A_RemoveLight("EDL_GreenGlow")
 		DARK H 0 A_RemoveLight("EDL_RedGlow")
 		DARK A 0 A_Scream
