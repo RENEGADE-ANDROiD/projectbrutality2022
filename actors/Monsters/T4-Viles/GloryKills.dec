@@ -514,7 +514,7 @@ ACTOR PB_EternalDarkLordGK : PB_EternalDarkLord Replaces PB_EternalDarkLord
 		TNT1 A 0 A_SpawnItemEx("BloodpunchWave", 0, 0, Height / 2, 0, 0, 0, 0, SXF_CLIENTSIDE|SXF_TRANSFERPITCH)
 		TNT1 A 0 A_SpawnItemEx("BloodpunchWave", 0, 0, Height / 2, 0, 0, 0, 0, SXF_CLIENTSIDE|SXF_TRANSFERPITCH)
 		TNT1 A 0 A_SpawnItemEx("GlorySawPinataHight",0,0,Height / 2,random(0,8),0,random(0,8),random(0,360))
-		Goto Super::Death.ExtremePunches
+		Goto Super::Death
 	Death.Fatality:
 		Goto Super::Death.Fatality
 	}
